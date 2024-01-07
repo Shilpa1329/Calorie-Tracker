@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title> Delete Confirmation</title>
+    </head>
+
+    <body>
+        <form method="POST">
+
+            {% csrf_token %}
+            Are You Sure You Want To Delete The Item?
+            <input type ="submit">
+        </form>    
+    </body>
+</html>
